@@ -10,8 +10,6 @@
 
 Batch scripts for Ruby production environment install on Ubuntu Server.
 
-[![wercker status](https://app.wercker.com/status/2dd2ff58518cae2dd75e4556e6d931c5/s/master "wercker status")](https://app.wercker.com/project/bykey/2dd2ff58518cae2dd75e4556e6d931c5)
-
 ## Requirements
 
 * Ubuntu Server 14.04
@@ -23,7 +21,7 @@ Install packages first
 ```bash
 sudo apt-get update
 sudo apt-get install -y curl
-curl -sSL https://git.io/vVHhe | bash
+curl -sSL https://git.io/vovQ1 | bash
 ```
 
 ### Install Nginx
@@ -31,36 +29,29 @@ curl -sSL https://git.io/vVHhe | bash
 Nginx [official package](http://nginx.org/packages/ubuntu/)
 
 ```bash
-curl -sSL https://git.io/vVHhf | bash
+curl -sSL https://git.io/vovQM | bash
 ```
 
 ### Install RVM + Ruby
 
 ```bash
-curl -sSL https://git.io/vVHhJ | bash
+curl -sSL https://git.io/vovQS | bash
 ```
 
 Use Ruby China mirror site for RubyGems and Ruby:
 
 ```
-MIRROR=1 curl -sSL https://git.io/vVHhJ | bash
+MIRROR=1 curl -sSL https://git.io/vovQS | bash
 ```
 
 ### Install MongoDB
 
 ```bash
-curl -sSL https://git.io/vVHhT | bash
+curl -sSL https://git.io/vovQH | bash
 ```
 
 ### Install Redis
 
 ```bash
-curl -sSL https://git.io/vVHhk | bash
-```
-
-### Install ElasticSearch
-
-```bash
-curl -sSL https://git.io/vVHhm | bash
-sudo service elasticsearch status
+curl -sSL https://git.io/vovQ7 | bash
 ```
