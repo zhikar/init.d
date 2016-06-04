@@ -55,3 +55,6 @@ curl -sSL https://git.io/vovQH | bash
 ```bash
 curl -sSL https://git.io/vovQ7 | bash
 ```
+
+### Install MySQL
+
